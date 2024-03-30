@@ -1,7 +1,8 @@
 # COMP 6000 Web Application Development Project 
 
-by:
-Aasrith Satya Matta
-Mounika Ghanta
-Pavan Kalyan Annadevara
-Satya Sai Teja Charla
+Done by:
+
+1. Aasrith Satya Matta
+2. Mounika Ghanta
+3. Pavan Kalyan Annadevara
+4. Satya Sai Teja Charla

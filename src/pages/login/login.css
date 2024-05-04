@@ -1,0 +1,75 @@
+.login{
+    background-image: url('../assets/img/bg.jpg');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .card{
+    display: flex;
+    width: 580px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.login .card .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.login h2{
+    color: black;
+}
+.login .card p{
+    font-size: .9rem;
+    color: black;
+}
+.login .card span{
+    color: black;
+}
+.login .card .right{
+    flex: 1;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.login form input{
+    padding: 1rem 0;
+    width: 90%;
+    background: transparent;
+    border: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    color: black;
+}
+.login form input::placeholder{
+    color: black;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.login form .btn{
+    color: white;
+    background-color: black;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+@media (max-width:600px) {
+    .login .card{
+        width: 90%;
+        flex-direction: column;
+    }
+    .login .card .right{
+        padding-bottom: 20px;
+    }
+}
